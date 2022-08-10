@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.titulo {
+    background-image: url(../imagens2/bg-3.jpg);
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.navegar {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px black;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img {
+   width: 100%; 
+    display: block;
+}
+.card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+.meio {
+    text-align: center;
+    color: white;    
+    margin-top: 150px;       
+}
+
+.meio p {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+.titulo nav ul {
+    text-align: right;
+    margin: 50px 75px 0 0;
+}
+
+.titulo nav li  {
+    display: inline-block;
+    list-style: none; 
+    margin-left: 5px;   
+    border: 1px solid white;
+    
+}
+
+.titulo nav a {
+    display: block;    
+    background: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.titulo nav a:hover {
+    background: rgba(0, 0, 0, 0.5);
+
+} 
+
+.meio h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px black;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.meio-content {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+    
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.322);
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    text-shadow: 3px 3px 2px black;
+}
+
+
+.final h2 {
+    background-color: rgb(80, 141, 141);
+    padding: 15px;
+    border-bottom-style: groove;
+    border-color: rgb(63, 148, 223);
+}
+
